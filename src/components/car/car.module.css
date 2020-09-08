@@ -1,0 +1,41 @@
+.Car {
+  display: block;
+  padding-top: 8%;
+}
+
+.Image {
+  display: block;
+  max-width: 100%;
+  padding-right: 2em;
+  padding-top: 2em;
+}
+
+.TextContainer {
+  border-style: solid;
+  border-color: #BEBEBE;
+}
+
+.Title {
+  padding-top: 1em;
+  text-align: center;
+  letter-spacing: 5px;
+  margin-left: 5px;
+  text-transform: uppercase;
+  font-family: "Lucida Console";
+  color: #646262;
+}
+
+.BodyWrapper {
+  padding: 1em;
+}
+
+@media (min-width: 960px) {
+  .Car {
+    display: flex;
+    align-items: flex-start;
+  }
+  .Image {
+    max-width: 50%;
+    height: auto;
+  }
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import './navbar.css';
+import styles from './navbar.module.css';
 import { Link, BrowserRouter, Switch, Route } from 'react-router-dom';
 
 //import pages
@@ -8,39 +8,41 @@ import SaloonCars from '../../pages/saloonCars/saloonCars';
 import ConvertableCars from '../../pages/convertableCars/convertableCars';
 import MuscleCars from '../../pages/muscleCars/muscleCars';
 
-export default function NavBar(props) {
+export default function NavBar() {
 
   return (
     <>
       <BrowserRouter>
-        <Link to='/sports'>
-          <button className='navButton'>
-            <div className='navText'>
-              Sports cars
-            </div>
-          </button>
-        </Link>
-        <Link to='/saloon'>
-          <button className='navButton'>
-            <div className='navText'>
-              Saloon cars
-            </div>
-          </button>
-        </Link>
-        <Link to='/convertable'>
-          <button className='navButton'>
-            <div className='navText'>
-              Convertable cars
-            </div>
-          </button>
-        </Link>
-        <Link to='/muscle'>
-          <button className='navButton'>
-            <div className='navText'>
-              Muscle cars
-            </div>
-          </button>
-        </Link>
+        <div className={styles.Container}>
+          <Link to='/sports'>
+            <button className={styles.Button}>
+              <div className={styles.Text}>
+                Sports cars
+              </div>
+            </button>
+          </Link>
+          <Link to='/saloon'>
+            <button className={styles.Button}>
+              <div className={styles.Text}>
+                Saloon cars
+              </div>
+            </button>
+          </Link>
+          <Link to='/convertable'>
+            <button className={styles.Button}>
+              <div className={styles.Text}>
+                Convertable cars
+              </div>
+            </button>
+          </Link>
+          <Link to='/muscle'>
+            <button className={styles.Button}>
+              <div className={styles.Text}>
+                Muscle cars
+              </div>
+            </button>
+          </Link>
+        </div>
         <Switch>
           <Route exact path={['/', '/sports']} component={SportsCars} />
           <Route path='/saloon' component={SaloonCars} />

@@ -1,0 +1,68 @@
+.Container {
+  /* width: 100%; */
+  clear: both;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gutter {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.spacious {
+  padding-top: 16px;
+  padding-bottom: 32px;
+}
+
+.full {
+  width: 100%;
+}
+
+.wide {
+  max-width: 1600px;
+}
+
+.large {
+  max-width: 1360px;
+}
+
+.medium {
+  max-width: 1120px;
+}
+
+.small {
+  max-width: 640px;
+}
+
+.hideOverflow {
+  overflow: hidden;
+}
+
+@media (min-width: 675px) {
+  .spacious {
+    padding-top: 24px;
+    padding-bottom: 64px;
+  }
+
+  .gutter{
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+
+@media (min-width: 1000px) {
+  .spacious { 
+    padding-top: 32px;
+    padding-bottom: 80px;
+  }
+
+  .gutter{
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
