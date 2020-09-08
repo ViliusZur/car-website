@@ -1,0 +1,16 @@
+.navButton {
+  display: inline-block;
+  text-align: center;
+  border: none;
+  outline: none;
+  background-color: #ECECEC;
+  color: #646262;
+  transition-duration: 0.4s;
+  width: 25%;
+  padding: 1%;
+}
+
+.navButton:hover {
+  background-color: #BEBEBE;
+  color: white;
+}
