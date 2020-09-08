@@ -13,11 +13,34 @@ export default function NavBar(props) {
   return (
     <>
       <BrowserRouter>
-        <Link to='/sports'><button className='navButton'>Sports cars</button></Link>
-        <Link to='/saloon'><button className='navButton'>Saloon cars</button></Link>
-        <Link to='/convertable'><button className='navButton'>Convertable cars</button></Link>
-        <Link to='/muscle'><button className='navButton'>Muscle cars</button></Link>
-
+        <Link to='/sports'>
+          <button className='navButton'>
+            <div className='navText'>
+              Sports cars
+            </div>
+          </button>
+        </Link>
+        <Link to='/saloon'>
+          <button className='navButton'>
+            <div className='navText'>
+              Saloon cars
+            </div>
+          </button>
+        </Link>
+        <Link to='/convertable'>
+          <button className='navButton'>
+            <div className='navText'>
+              Convertable cars
+            </div>
+          </button>
+        </Link>
+        <Link to='/muscle'>
+          <button className='navButton'>
+            <div className='navText'>
+              Muscle cars
+            </div>
+          </button>
+        </Link>
         <Switch>
           <Route exact path={['/', '/sports']} component={SportsCars} />
           <Route path='/saloon' component={SaloonCars} />
