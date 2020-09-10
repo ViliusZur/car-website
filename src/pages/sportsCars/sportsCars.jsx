@@ -20,7 +20,7 @@ const cars = [
     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, <br></br>
     when an unknown printer took a galley of type and scrambled it to make a type specimen book. <br></br>
     It has survived not only five centuries, but also the leap into electronic typesetting`,
-    image: '/cars/sportsCars/lamborghini-huracan.png'
+    image: '/cars/sportsCars/lamborghini-huracan-orange.png'
   },
   {
     title: 'Audi R8',
@@ -43,6 +43,7 @@ const cars = [
 const SportsCarsPage = () => {
   return (
     <>
+      <div className={styles.VerticalLines} />
       <div className={styles.PageTitle}>sports cars</div>
       <Container size='large' center gutter spacious>
       {

@@ -1,10 +1,27 @@
 .PageTitle {
-  text-align: center;
+  text-align: left;
   margin-top: 3%;
-  margin-left: 9.09vw;
+  margin-left: 3%;
   letter-spacing: 9.09vw;
   text-transform: uppercase;
   font-family: "Lucida Console";
   font-size: 200%;
-  color: #646262;
+  color: #BF0404;
+} 
+
+.VerticalLines {
+  width: 1em;
+  height: 100%;
+  border-left: 30px solid #BF0404;
+  border-right: 30px solid #BF0404;
+  position:fixed;
+    right: 22%;
+  z-index: -2;
+}
+
+@media (max-width: 900px) {
+  .VerticalLines {
+    border-left: 10px solid #BF0404;
+    border-right: 10px solid #BF0404;
+  }
 } 

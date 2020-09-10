@@ -1,6 +1,18 @@
 .Car {
   display: block;
   padding-top: 8%;
+  position: relative;
+  z-index: -1;
+}
+
+.ImageBackground {
+  position: absolute;
+  top: 30%;
+  width: 51%;
+  height: 70%;
+  background-image: radial-gradient(rgba(191,4,4,1) 10%, rgba(191,4,4,0) 70%);
+  border-radius: 50%;
+  z-index: -1;
 }
 
 .Image {
@@ -12,7 +24,8 @@
 
 .TextContainer {
   border-style: solid;
-  border-color: #BEBEBE;
+  border-color: #BF0404;
+  background-color: white;
 }
 
 .Title {

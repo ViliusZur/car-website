@@ -4,6 +4,7 @@ import styles from "./car.module.css";
 const Car = ({ title, body, image }) => {
   return (
     <div className={styles.Car}>
+      <div className={styles.ImageBackground} />
       <img
         className={styles.Image}
         src={image}
