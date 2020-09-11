@@ -1,9 +1,8 @@
 import React from 'react';
 
-import Container from '../../components/container'
+import Container from '../../components/container';
 import Car from '../../components/car/car';
-
-import styles from './sportsCars.module.css';
+import Background from './background';
 
 const cars = [
   {
@@ -43,8 +42,7 @@ const cars = [
 const SportsCarsPage = () => {
   return (
     <>
-      <div className={styles.VerticalLines} />
-      <div className={styles.PageTitle}>sports cars</div>
+      <Background title='sports cars' />
       <Container size='large' center gutter spacious>
       {
         cars.map((car, i) => (
