@@ -30,7 +30,9 @@
 
 @media(max-width: 900px) {
   .PageTitle {
-    letter-spacing: 0;
+    letter-spacing: 1vw;
+    margin-top: 5%;
+    margin-left: 5%;
   }
   .VerticalLines {
     border-left: 15px solid #BF0404;

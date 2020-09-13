@@ -17,28 +17,28 @@ export default function NavBar() {
           <Link to='/sports'>
             <button className={styles.Button}>
               <div className={styles.Text}>
-                Sports cars
+                Sports
               </div>
             </button>
           </Link>
           <Link to='/saloon'>
             <button className={styles.Button}>
               <div className={styles.Text}>
-                Saloon cars
+                Saloon
               </div>
             </button>
           </Link>
           <Link to='/convertable'>
             <button className={styles.Button}>
               <div className={styles.Text}>
-                Convertable cars
+                Convertable
               </div>
             </button>
           </Link>
           <Link to='/muscle'>
             <button className={styles.Button}>
               <div className={styles.Text}>
-                Muscle cars
+                Muscle
               </div>
             </button>
           </Link>
