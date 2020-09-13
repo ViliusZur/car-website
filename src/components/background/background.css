@@ -1,0 +1,77 @@
+:root {
+  --sportsBackground: url('/cars/sportsCars/background.jpg');
+  --saloonBackground: url('/cars/saloonCars/background.jpg');
+  --convertableBackground: url('/cars/convertableCars/background.jpg');
+  --muscleBackground: url('/cars/muscleCars/background.jpg');
+}
+
+.PageTitle {
+  text-align: left;
+  margin-top: 3%;
+  margin-left: 3%;
+  margin-right: 50%;
+  letter-spacing: 4vw;
+  text-transform: uppercase;
+  font-family: "Lucida Console";
+  font-size: 200%;
+  color: #BF0404;
+} 
+
+.VerticalLines {
+  width: 1em;
+  height: 100%;
+  border-left: 30px solid #BF0404;
+  border-right: 30px solid #BF0404;
+  position:fixed;
+    top: 0;
+    right: 22%;
+  z-index: -1;
+}
+
+@media(max-width: 900px) {
+  .PageTitle {
+    letter-spacing: 0;
+  }
+  .VerticalLines {
+    border-left: 15px solid #BF0404;
+    border-right: 15px solid #BF0404;
+  }
+}
+
+@media(max-width: 360px) {
+  .PageTitle {
+    display: none;
+  }
+}
+
+.BackgroundImageContainer {
+  position: relative;
+}
+
+.BackgroundImage {
+  z-index: -2;
+  position: absolute;
+  left: 0;
+  top: -100px;
+  width: 100%;
+  height: 800px;
+  background-position: center;
+  /* Make the background image cover the area of the <div>, and clip the excess */
+  background-size: cover;
+}
+
+.Sports {
+  background-image: linear-gradient(rgba(191,4,4,0.09), rgba(250,248,255, 1)), var(--sportsBackground);
+}
+
+.Saloon {
+  background-image: linear-gradient(rgba(191,4,4,0.09), rgba(250,248,255, 1)), var(--saloonBackground);
+}
+
+.Convertable {
+  background-image: linear-gradient(rgba(191,4,4,0.09), rgba(250,248,255, 1)), var(--convertableBackground);
+}
+
+.Muscle {
+  background-image: linear-gradient(rgba(191,4,4,0.09), rgba(250,248,255, 1)), var(--muscleBackground);
+}

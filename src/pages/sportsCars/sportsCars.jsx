@@ -2,47 +2,47 @@ import React from 'react';
 
 import Container from '../../components/container';
 import Car from '../../components/car/car';
-import Background from './background';
+import Background from '../../components/background/background';
 
 const cars = [
   {
-    title: 'Ferrari 458',
+    title: 'Ferrari',
     body: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br></br>
     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, <br></br>
     when an unknown printer took a galley of type and scrambled it to make a type specimen book. <br></br>
     It has survived not only five centuries, but also the leap into electronic typesetting`,
-    image: '/cars/sportsCars/ferrari-458.png'
+    image: '/cars/sportsCars/ferrari.png'
   },
   {
-    title: 'Lamborghini Huracan',
+    title: 'Lamborghini',
     body: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br></br>
     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, <br></br>
     when an unknown printer took a galley of type and scrambled it to make a type specimen book. <br></br>
     It has survived not only five centuries, but also the leap into electronic typesetting`,
-    image: '/cars/sportsCars/lamborghini-huracan-orange.png'
+    image: '/cars/sportsCars/lamborghini.png'
   },
   {
-    title: 'Audi R8',
+    title: 'Audi',
     body: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br></br>
     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, <br></br>
     when an unknown printer took a galley of type and scrambled it to make a type specimen book. <br></br>
     It has survived not only five centuries, but also the leap into electronic typesetting`,
-    image: '/cars/sportsCars/audi-r8.png'
+    image: '/cars/sportsCars/audi.png'
   },
   {
-    title: 'McLaren 720S',
+    title: 'McLaren',
     body: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br></br>
     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, <br></br>
     when an unknown printer took a galley of type and scrambled it to make a type specimen book. <br></br>
     It has survived not only five centuries, but also the leap into electronic typesetting`,
-    image: '/cars/sportsCars/mclaren-720s.png'
+    image: '/cars/sportsCars/mclaren.png'
   },
 ];
 
 const SportsCarsPage = () => {
   return (
     <>
-      <Background title='sports cars' />
+      <Background title='sports cars' Sports />
       <Container size='large' center gutter spacious>
       {
         cars.map((car, i) => (
@@ -54,4 +54,4 @@ const SportsCarsPage = () => {
   )
 }
 
-export default SportsCarsPage
+export default SportsCarsPage;
