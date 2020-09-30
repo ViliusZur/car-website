@@ -11,7 +11,7 @@ const cars = [
     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, <br></br>
     when an unknown printer took a galley of type and scrambled it to make a type specimen book. <br></br>
     It has survived not only five centuries, but also the leap into electronic typesetting`,
-    image: '/cars/muscleCars/dodge-challenger.png'
+    image: '/cars/muscleCars/dodge-challenger.webp'
   },
   {
     title: 'Chevrolet',
@@ -19,7 +19,7 @@ const cars = [
     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, <br></br>
     when an unknown printer took a galley of type and scrambled it to make a type specimen book. <br></br>
     It has survived not only five centuries, but also the leap into electronic typesetting`,
-    image: '/cars/muscleCars/camaro.png'
+    image: '/cars/muscleCars/camaro.webp'
   },
   {
     title: 'Ford',
@@ -27,7 +27,7 @@ const cars = [
     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, <br></br>
     when an unknown printer took a galley of type and scrambled it to make a type specimen book. <br></br>
     It has survived not only five centuries, but also the leap into electronic typesetting`,
-    image: '/cars/muscleCars/mustang.png'
+    image: '/cars/muscleCars/mustang.webp'
   },
   {
     title: 'cadillac',
@@ -35,7 +35,7 @@ const cars = [
     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, <br></br>
     when an unknown printer took a galley of type and scrambled it to make a type specimen book. <br></br>
     It has survived not only five centuries, but also the leap into electronic typesetting`,
-    image: '/cars/muscleCars/cadillac.png'
+    image: '/cars/muscleCars/cadillac.webp'
   },
 ];
 

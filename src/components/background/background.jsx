@@ -3,11 +3,11 @@ import './background.css';
 import { bool } from 'prop-types';
 import cn from '../../lib/cn';
 
-const Background = ({title, Sports, Saloon, Convertable, Muscle}) => (
+const Background = ({title, Sports, Saloon, Convertible, Muscle}) => (
   <>
   <div className='BackgroundImageContainer'>
     <div 
-      className={cn('BackgroundImage', Sports && 'Sports', Saloon && 'Saloon', Convertable && 'Convertable', Muscle && 'Muscle')} />
+      className={cn('BackgroundImage', Sports && 'Sports', Saloon && 'Saloon', Convertible && 'Convertible', Muscle && 'Muscle')} />
   </div>
   <div className='VerticalLines' />
   <div className='PageTitle'>{title}</div>
@@ -17,7 +17,7 @@ const Background = ({title, Sports, Saloon, Convertable, Muscle}) => (
 Background.propTypes = {
   Sports: bool,
   Saloon: bool,
-  Convertable: bool,
+  Convertible: bool,
   Muscle: bool,
 }
 

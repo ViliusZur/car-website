@@ -8,9 +8,9 @@
 .ImageBackground {
   position: absolute;
   top: 30%;
-  width: 51%;
+  width: 50%;
   height: 70%;
-  background-image: radial-gradient(rgba(191,4,4,1) 40%, rgba(191,4,4,0) 70%);
+  background-image: radial-gradient(rgba(191,4,4,1) 35%, rgba(191,4,4,0) 70%);
   border-radius: 50%;
   z-index: -1;
 }
@@ -23,6 +23,8 @@
 }
 
 .TextContainer {
+  text-align: justify;
+  text-justify: inter-word;
   border-style: solid;
   border-color: #BF0404;
   background-color: white;

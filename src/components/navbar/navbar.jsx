@@ -5,7 +5,7 @@ import { Link, BrowserRouter, Switch, Route } from 'react-router-dom';
 //import pages
 import SportsCars from '../../pages/sportsCars/sportsCars';
 import SaloonCars from '../../pages/saloonCars/saloonCars';
-import ConvertableCars from '../../pages/convertableCars/convertableCars';
+import ConvertibleCars from '../../pages/convertibleCars/convertibleCars';
 import MuscleCars from '../../pages/muscleCars/muscleCars';
 
 export default function NavBar() {
@@ -28,10 +28,10 @@ export default function NavBar() {
               </div>
             </button>
           </Link>
-          <Link to='/convertable'>
+          <Link to='/convertible'>
             <button className={styles.Button}>
               <div className={styles.Text}>
-                Convertable
+                Convertible
               </div>
             </button>
           </Link>
@@ -46,7 +46,7 @@ export default function NavBar() {
         <Switch>
           <Route exact path={['/', '/sports']} component={SportsCars} />
           <Route path='/saloon' component={SaloonCars} />
-          <Route path='/convertable' component={ConvertableCars} />
+          <Route path='/convertible' component={ConvertibleCars} />
           <Route path='/muscle' component={MuscleCars} />
         </Switch>
       </BrowserRouter>
