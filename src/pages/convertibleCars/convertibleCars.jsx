@@ -42,7 +42,7 @@ const cars = [
 const convertibleCarsPage = () => {
 	return (
 		<>
-			<Background title="convertible cars" convertible />
+			<Background title="convertible cars" Convertible />
 			<Container size="large" center gutter spacious>
 				{cars.map((car, i) => (
 					<Car
