@@ -2,6 +2,8 @@
 
 This is a website about some of my favourite cars. The purpose of this project was to practice ReactJS and learn more about CSS.
 
+[![Demo](https://i.imgur.com/xHgFi3A.png)](https://beautiful-cars.netlify.app/)
+
 <h2>How To Run</h2>
 
 To run this project run the following commands:
